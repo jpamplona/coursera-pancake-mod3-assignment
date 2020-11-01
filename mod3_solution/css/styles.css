@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #051d30;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e4e4e4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #051d30;
+}
+
+#navbar-container {
+  background-color: #051d30;
+}
+
+#brand {
+  color: silver;
+}
+
+#menu-collapse {
+  background-color: #051d30d2;
+}
+
+#navbar-menu li a {
+  color: silver;
+}
+
+#navbar-menu li:hover a {
+  background: #051d30db;
+}
+
+.menu-row {
+  padding: 0px 30px;
+  margin-bottom: 20px;
+}
+
+.option {
+  margin: 10px 0px;
+  padding: 10px 20px;
+  background-color: #e4e3e3;
+  border: 1px solid rgb(216, 216, 216);
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.option-header {
+  margin-bottom: 20px;
+}
+
+.option-description {
+  line-height: 1.5;
+}
+
+.option:hover {
+  transform: scale(1.02);
+  background-color: #051d30;
+  color: silver;
+  z-index: 1;
+}
